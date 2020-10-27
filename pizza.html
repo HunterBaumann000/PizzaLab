@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+</head>
+<body>
+
+<script>
+
+    var toppingsAmount = window.prompt("Enter the amount of toppings you wish to have on your pizza:")
+    var peopleSharing = window.prompt("Enter the amount of people sharing the pizza:")
+
+    var basePizzaCost = 15;
+
+    var pizzaTotal = basePizzaCost + (toppingsAmount * 1.25);
+
+    var totalDivision = pizzaTotal / peopleSharing;
+
+    window.alert("Your total division among " + peopleSharing + " people is: " + totalDivision + "$. ");
+
+</script>
+
+</body>
+</html>
